@@ -1,0 +1,1 @@
+GET     /current-user               controllers.Application.currentUser()

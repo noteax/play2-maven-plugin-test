@@ -14,11 +14,4 @@ public class Application extends Controller {
         return ok(Json.toJson(user));
     }
 
-    public Result index() {
-        User user = SomeDummySingleton.instance().getUser();
-        return ok(
-            index.render(user)
-        );
-    }
-
 }
