@@ -1,0 +1,7 @@
+@import user.User
+
+@(user: User)
+
+@main(title = "The 'inverted-dep' application") {
+    <h1>User: @user.getName, at age @user.getAge</h1>
+}
