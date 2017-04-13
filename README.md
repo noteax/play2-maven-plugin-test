@@ -1,5 +1,5 @@
 # play2-maven-plugin-test
-Little investigation on how work hot-reload feature in play2-maven-plugin and sbt-play-plugin. Consists from:
+Little investigation on hot-reload feature in play2-maven-plugin and sbt-play-plugin. Consists from:
  - jar dependency with class which contains static singleton and holds reference to "hot-reloading" classes
  - main application module with "hot-reloading" play project
 
